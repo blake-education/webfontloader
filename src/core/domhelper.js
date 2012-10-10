@@ -106,6 +106,13 @@ webfont.DomHelper.prototype.createCssLink = function(src) {
   });
 };
 
+
+webfont.DomHelper.prototype.createCssTag = function(css) {
+  return this.createElement('style', {
+    'rel': 'stylesheet'
+  }, css);
+}
+
 /**
  * Creates a link to a javascript document.
  * @param {string} src The URL of the script.
