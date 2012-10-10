@@ -33,3 +33,6 @@ monotype:
 
 custom:
   - custom/customcss.js
+
+synthetic:
+  - synthetic/syntheticcss.js
